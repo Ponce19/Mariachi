@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario de Contacto</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="Informacion.css">
+        <link rel="icon" href="logo.png">
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">MARIACHI REYNAS Y REYES</h2>
+            <input type="checkbox" id="check">
+            <label for="check" class="mostrar-menu">&#8801</label>
+            <nav class="menu">
+                <a href="index.html">inicio</a>
+                <a href="informacion.html">informacion</a>
+                <a href="Contacto.html">contacto</a>
+                <label for="check" class="esconder-menu">&#215</label>
+            </nav>
+        </header>
+
+        <form method="post" action="CONT.php">
+            <h2>Contratanos!</h2>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="telefono" placeholder="Telefono">
+            <input type="text" name="ubicacion" placeholder="Ubicacion">
+            <input type="text" name="pago" placeholder="Metodo de pago (Efectivo / Transferencia)">
+            <input type="text" name="InfoExtra" placeholder="Informacion Extra">
+            <input type="submit" value="Submit" id="boton">
+        </form>
+    </body>
+</html>
